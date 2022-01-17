@@ -68,7 +68,7 @@ public class AutonomousBlueStorage extends LinearOpMode {
             sleep(290);
         //Step 2: Strafe 1 square left    
             robot.rotateRight(.4);
-            sleep(550);
+            sleep(510);
         //Step 3: Turn 45 degrees clockwise
             robot.moveBackward(0.18);
             sleep(1800);
@@ -78,13 +78,13 @@ public class AutonomousBlueStorage extends LinearOpMode {
             sleep(4000);
         //Step 5: Turn Green Wheel right (4 seconds)
             robot.moveRight(1);
-            sleep(700);
+            sleep(650);
         /*Step 6: Strafe right 1 inch
             robot.moveLeft(-1);
             sleep(1000);
         //Step 7: Turn 45 degrees counterclockwise
             robot.rotateRight(-0.2);
-            sleep(3000);
+            sleep(3000); abcdefghijklmnopqrstuvwxyz
         //Step 8: Move 1 square back
             robot.moveBackward(0.2);
             sleep(5000);*/

@@ -81,9 +81,9 @@ public class AutonomousRedStorage extends LinearOpMode {
             robot.stopCarousel();
         //Step 4: Strafe left 1 inch
             robot.rotateLeft(.3);
-            sleep(900);
-            robot.moveForward(.4);
-            sleep(4);
+            sleep(675);
+            robot.moveForward(.3);
+            sleep(200);
             robot.stopCoast();
             sleep(500);
             robot.moveLeft(1);
