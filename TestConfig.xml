@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <LynxUsbDevice name="Control Hub Portal" serialNumber="(embedded)" parentModuleAddress="173">
+        <LynxModule name="Expansion Hub 2" port="2">
+            <TetrixMotor name="carouselMotor" port="0" />
+            <TetrixMotor name="leftClawMotor" port="1" />
+            <TetrixMotor name="rightClawMotor" port="2" />
+        </LynxModule>
+        <LynxModule name="Control Hub" port="173">
+            <TetrixMotor name="frontLeft" port="0" />
+            <TetrixMotor name="frontRight" port="1" />
+            <TetrixMotor name="backLeft" port="2" />
+            <TetrixMotor name="backRight" port="3" />
+            <Servo name="clawServo" port="0" />
+            <ContinuousRotationServo name="continuousServo1" port="1" />
+            <ContinuousRotationServo name="continuousServo2" port="2" />
+            <Servo name="servo2" port="3" />
+            <Servo name="servo3" port="4" />
+            <Servo name="servo4" port="5" />
+            <RevTouchSensor name="testTouch" port="1" />
+            <LynxEmbeddedIMU name="imu" port="0" bus="0" />
+            <RevColorSensorV3 name="sensorColorRange" port="1" bus="0" />
+        </LynxModule>
+    </LynxUsbDevice>
+</Robot>
